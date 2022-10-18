@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <h1 className='text-5xl'>Count: {count}</h1>
+        
     </div>
   )
 }
