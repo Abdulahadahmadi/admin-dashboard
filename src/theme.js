@@ -2,7 +2,7 @@ import { createContext, useState, useMemo  } from "react";
 import { createTheme } from "@mui/material/styles"; 
 
 // color design tokens
-export const  tokens = (mode) => ({
+export const  Tokens = (mode) => ({
   ...(mode === 'dark' ? {
     gray: {
       100: "#e0e0e0",
@@ -122,7 +122,7 @@ export const  tokens = (mode) => ({
   // mui theme settings
 
   export const themeSettings = (mode) => {
-    const colors = tekens(mode);
+    const colors = Tokens(mode);
 
     return {
       palette: {
