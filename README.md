@@ -1,2 +1,4 @@
-# computer-science-pathway
-Pathway platform for computer science students
+# React Admin Dashboard
+
+Completed React Admin Dashboard Repo
+
